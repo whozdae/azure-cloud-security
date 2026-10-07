@@ -1,0 +1,6 @@
+Resource,Setting,After,CIS,Status
+stmisconfig92080,HTTPS-only required,True,CIS 3.1,PASS
+stmisconfig92080,Minimum TLS version,TLS1_2,CIS 3.x,PASS
+stmisconfig92080,Public blob access,False,CIS 3.7,PASS
+stmisconfig92080,Public network access,Disabled,CIS 3.x,PASS
+nsg-misconfig,RDP 3389 inbound from Internet (*),Rule removed,CIS 6.x,PASS

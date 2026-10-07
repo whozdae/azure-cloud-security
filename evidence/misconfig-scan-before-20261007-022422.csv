@@ -1,0 +1,6 @@
+Resource,Setting,Current,CIS,Status
+stmisconfig92080,HTTPS-only required,False,CIS 3.1,FAIL
+stmisconfig92080,Minimum TLS version,TLS1_2,CIS 3.x,PASS (platform-enforced by Azure)
+stmisconfig92080,Public blob access,True,CIS 3.7,FAIL
+stmisconfig92080,Public network access,Enabled,CIS 3.x,FAIL
+nsg-misconfig,RDP 3389 inbound from Internet (*),Allow,CIS 6.x,FAIL
